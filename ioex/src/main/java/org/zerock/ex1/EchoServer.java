@@ -4,6 +4,8 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class EchoServer {
@@ -11,7 +13,11 @@ public class EchoServer {
     //bad code
     public static void main(String[] args) throws Exception {
 
+        Map<String, String[]> map = new HashMap<>();
 
+        map.put("kor", new String[]{"불고기","비빔밥"});
+        map.put("jap", new String[]{"초밥","라멘"});
+        map.put("wes", new String[]{"피자","파스타"});
 
         //서버 소켓 준비
         ServerSocket serverSocket = new ServerSocket(9999);
@@ -30,8 +36,18 @@ public class EchoServer {
             String msg = inScanner.nextLine();
             System.out.println(msg);
 
+            String[] arr = map.get(msg);
+
             //읽은 메시지를 다시 전송
-            String sendMsg = "SERVER: "+msg+"\n";
+            String sendMsg = null;
+
+            if(arr == null){
+                sendMsg = "다른 키워드를 입력하세요\n";
+            }else {
+                int idx = (int)(Math.random() * arr.length);
+                sendMsg = arr[idx]+"\n";
+            }
+//            "SERVER: "+msg+"\n";
             OutputStream out = socket.getOutputStream();
 
             out.write(sendMsg.getBytes());
