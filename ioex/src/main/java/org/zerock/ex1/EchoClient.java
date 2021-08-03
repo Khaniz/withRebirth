@@ -21,7 +21,7 @@ public class EchoClient {
             if(msg.equalsIgnoreCase("exit")){
                 break;
             }
-            Socket socket = new Socket("192.168.0.34",9999);
+            Socket socket = new Socket("127.0.0.1",9999);
             InputStream in = socket.getInputStream();
             Scanner inScanner = new Scanner(in);
             OutputStream out = socket.getOutputStream();

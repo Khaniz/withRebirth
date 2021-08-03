@@ -1,38 +1,66 @@
 org/zerock/ex1/FileFastCoply2.java
  org.zerock.ex1.FileFastCoply2
-org/zerock/ex1/OneToOneServer.java
- org.zerock.ex1.OneToOneServer
 org/zerock/ex/FileCopy1.java
  org.zerock.ex.FileCopy1
 org/zerock/ex1/OneToOneClient.java
  org.zerock.ex1.OneToOneClient
-org/zerock/ex/FileCopy2.java
- org.zerock.ex.FileCopy2
+org/zerock/note/NoteServer.java
+ org.zerock.note.NoteServer
 org/zerock/ex/Server1.java
  org.zerock.ex.Server1
-org/zerock/ex/Server2.java
- org.zerock.ex.Server2
+org/zerock/note/NoteTest.java
+ org.zerock.note.NoteTest
+org/zerock/random/DataServer.java
+ org.zerock.random.DataServer
 org/zerock/random/MapEx.java
  org.zerock.random.MapEx
+org/zerock/ex1/MyServer.java
+ org.zerock.ex1.MyServer
+org/zerock/note/NoteMapTest.java
+ org.zerock.note.NoteMapTest
+org/zerock/ex1/FileFastCopy.java
+ org.zerock.ex1.FileFastCopy
+org/zerock/ex1/OneToOneServer.java
+ org.zerock.ex1.OneToOneServer
+org/zerock/note/NoteService.java
+ org.zerock.note.NoteService
+org/zerock/random/DataClient.java
+ org.zerock.random.DataClient
+org/zerock/random/GatewayServer.java
+ org.zerock.random.GatewayServer
+org/zerock/ex/FileCopy2.java
+ org.zerock.ex.FileCopy2
+org/zerock/ex/Server2.java
+ org.zerock.ex.Server2
+org/zerock/ex1/EchoServer.java
+ org.zerock.ex1.EchoServer
 org/zerock/random/FoodVendingServer.java
  org.zerock.random.FoodVendingServer
 org/zerock/ex1/KeyInOut.java
  org.zerock.ex1.KeyInOut
 org/zerock/ex1/MyClient.java
  org.zerock.ex1.MyClient
-org/zerock/random/FoodVendingClient.java
- org.zerock.random.FoodVendingClient
-org/zerock/ex1/MyServer.java
- org.zerock.ex1.MyServer
+org/zerock/note/NoteDTO.java
+ org.zerock.note.NoteDTO
+ org.zerock.note.NoteDTO$NoteDTOBuilder
 org/zerock/ex1/EchoClient.java
  org.zerock.ex1.EchoClient
-org/zerock/ex1/FileFastCopy.java
- org.zerock.ex1.FileFastCopy
-org/zerock/ex1/EchoServer.java
- org.zerock.ex1.EchoServer
-org/zerock/random/DataClient.java
- org.zerock.random.DataClient
-org/zerock/random/GatewayServer.java
- org.zerock.random.GatewayServer
-org/zerock/random/DataServer.java
- org.zerock.random.DataServer
+org/zerock/random/FoodVendingClient.java
+ org.zerock.random.FoodVendingClient
+org/zerock/note/Command.java
+ org.zerock.note.Command
+ org.zerock.note.Command$CommandBuilder
+org/zerock/noteT/NoteDTO.java
+ org.zerock.noteT.NoteDTO
+ org.zerock.noteT.NoteDTO$NoteDTOBuilder
+org/zerock/noteT/Command.java
+ org.zerock.noteT.Command
+ org.zerock.noteT.Command$CommandBuilder
+org/zerock/noteT/NoteServer.java
+ org.zerock.noteT.NoteServer
+org/zerock/noteT/NoteService.java
+ org.zerock.noteT.NoteService
+org/zerock/noteT/NoteClient.java
+ org.zerock.noteT.NoteClient
+org/zerock/note/NoteClient.java
+ org.zerock.note.NoteClient
