@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="app">
+    <CLASSES>
+      <root url="file://$USER_HOME$/git/bitcamp-study/java-basic/app" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/git/bitcamp-study/java-basic/app/src/main/java" />
+    </SOURCES>
+  </library>
+</component>
