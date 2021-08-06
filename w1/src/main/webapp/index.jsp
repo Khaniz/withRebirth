@@ -8,7 +8,11 @@
 <h1><%= "Hello World!" %>
 </h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
-<a href="bmiInput.jsp">bmi 검사기</a>
+<p><a href="calcInput.jsp">계산기</a></p>
+
+<p><a href="bmiInput.jsp">bmi 검사기</a></p>
+
+<p><a href="player.jsp" target="_blank" >Music Player</a></p>
+<%--언더바는 개발자가 건드리지 말라는 의미로 많이 씀--%>
 </body>
 </html>

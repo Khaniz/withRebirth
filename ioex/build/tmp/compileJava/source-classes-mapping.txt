@@ -3,12 +3,12 @@ org/zerock/ex1/FileFastCoply2.java
 org/zerock/noteT/Command.java
  org.zerock.noteT.Command
  org.zerock.noteT.Command$CommandBuilder
-org/zerock/ex/FileCopy1.java
- org.zerock.ex.FileCopy1
-org/zerock/ex1/OneToOneClient.java
- org.zerock.ex1.OneToOneClient
 org/zerock/note/NoteServer.java
  org.zerock.note.NoteServer
+org/zerock/ex1/OneToOneClient.java
+ org.zerock.ex1.OneToOneClient
+org/zerock/ex/FileCopy1.java
+ org.zerock.ex.FileCopy1
 org/zerock/ex/Server1.java
  org.zerock.ex.Server1
 org/zerock/noteT/NoteService.java
@@ -32,8 +32,8 @@ org/zerock/noteT/NoteServer.java
  org.zerock.noteT.NoteServer
 threadEx/Ex1.java
  threadEx.Ex1
-org/zerock/ex1/EchoClient.java
- org.zerock.ex1.EchoClient
+threadEx/ManyToManyServer.java
+ threadEx.ManyToManyServer
 org/zerock/ex1/MyServer.java
  org.zerock.ex1.MyServer
 org/zerock/note/NoteMapTest.java
@@ -52,15 +52,14 @@ org/zerock/ex/FileCopy2.java
  org.zerock.ex.FileCopy2
 threadEx/Ex2.java
  threadEx.Ex2
-org/zerock/ex/Server2.java
- org.zerock.ex.Server2
 org/zerock/ex1/EchoServer.java
  org.zerock.ex1.EchoServer
+org/zerock/ex/Server2.java
+ org.zerock.ex.Server2
 org/zerock/random/FoodVendingServer.java
  org.zerock.random.FoodVendingServer
-org/zerock/note/Command.java
- org.zerock.note.Command
- org.zerock.note.Command$CommandBuilder
+threadEx/OneToOneClient.java
+ threadEx.OneToOneClient
 org/zerock/ex1/KeyInOut.java
  org.zerock.ex1.KeyInOut
 org/zerock/ex1/MyClient.java
@@ -76,7 +75,8 @@ org/zerock/random/FoodVendingClient.java
  org.zerock.random.FoodVendingClient
 threadEx/Horse.java
  threadEx.Horse
-threadEx/OneToOneClient.java
- threadEx.OneToOneClient
-threadEx/ManyToManyServer.java
- threadEx.ManyToManyServer
+org/zerock/note/Command.java
+ org.zerock.note.Command
+ org.zerock.note.Command$CommandBuilder
+org/zerock/ex1/EchoClient.java
+ org.zerock.ex1.EchoClient
